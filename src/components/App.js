@@ -7,7 +7,7 @@ import PageNotFound from './PageNotFound';
 export default function App() {
   return (
     <Switch>
-      <Route exact path="/" component={Home} />
+      <Route exact path="/dollareffect/" component={Home} />
       <Route component={PageNotFound} />
     </Switch>
   );
